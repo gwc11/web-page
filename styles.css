@@ -1,5 +1,32 @@
 header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FaF8;
     font-family: sans-serif;
+}
+
+.easy {
+    color: #F9FaF8;
+    background-color: red;
+    border: 5px;
+}
+
+.block1 {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    font-family: sans-serif;
+}
+
+.block2 {
+    background-color: white;
+    color: #1F2937;
+}
+
+.block3 {
+    background-color: #E5E7EB;
+    color: #1F2937
+}
+
+.block4 {
+    background-color: #3882F6;
+    color: white;
 }
