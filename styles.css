@@ -1,22 +1,34 @@
+body {
+    margin: 0;
+}
+
 header {
     background-color: #1F2937;
     color: #F9FaF8;
     font-family: sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+#logo {
+    flex: 1;
+    height: auto;
+    max-width: 10%;
+    margin-right: 350px;
+}
+
+.links {
     display: flex;
     justify-content: flex-end;
-    margin: 10px;
 }
 
-#topleft {
-    justify-content: flex-start;
+.link1, .link2, .link3 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.easy {
-    color: #F9FaF8;
-    background-color: red;
-    border: 5px;
-    border-color: white;
-}
 
 .block1 {
     background-color: #1F2937;
@@ -46,4 +58,11 @@ header {
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.easy {
+    color: #F9FaF8;
+    background-color: red;
+    border: 5px;
+    border-color: white;
 }
