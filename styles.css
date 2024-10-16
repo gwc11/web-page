@@ -2,31 +2,48 @@ header {
     background-color: #1F2937;
     color: #F9FaF8;
     font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+#topleft {
+    justify-content: flex-start;
 }
 
 .easy {
     color: #F9FaF8;
     background-color: red;
     border: 5px;
+    border-color: white;
 }
 
 .block1 {
     background-color: #1F2937;
     color: #F9FaF8;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .block2 {
     background-color: white;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 .block3 {
     background-color: #E5E7EB;
-    color: #1F2937
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .block4 {
     background-color: #3882F6;
     color: white;
+    display: flex;
+    justify-content: center;
 }
