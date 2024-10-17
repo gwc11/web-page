@@ -117,8 +117,19 @@ header {
 .block3 {
     background-color: #E5E7EB;
     color: #1F2937;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-color: #E5E7EB;
+}
+
+.block3 p {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    font-size: large;
 }
 
 .block4 {
@@ -126,6 +137,8 @@ header {
     color: white;
     display: flex;
     justify-content: center;
+    
+
 }
 
 button {
