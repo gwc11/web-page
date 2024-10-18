@@ -10,16 +10,24 @@ header {
     background-color: #1F2937;
     color: #F9FaF8;
     font-family: sans-serif;
-    
     padding-top: 10px;
     padding-bottom: 75px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 #logo {
     flex: 1;
     height: auto;
     max-width: 10%;
-    margin-right: 350px;
+    margin-right: 550px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img1 {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .links {
@@ -188,5 +196,14 @@ button {
     display: flex;
     justify-content: center;
     align-self: center;
-    
+}
+
+footer {
+    background-color: #1F2937;
+    color:#F9FaF8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 45px solid #1F2937;
+   
 }
